@@ -5,25 +5,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-
+  table-layout: fixed;
+  
 }
 
-table th, table td {
+table td {
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px 0;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-table th, table td:first-child{
+table th, table td:first-child {
+  border: solid #dedede 1px;
   background-color: #2244aa;
   color: #ffffff;
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 26px ;
 }
 
-.cell_gray{
+table td:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
-.last_line{
+table tr:last-child {
   border-top: dashed #000 2px;
 }
 
