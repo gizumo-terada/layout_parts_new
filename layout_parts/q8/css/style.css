@@ -2,4 +2,98 @@
 
 /* 回答はここに書いてね */
 
+.q8__btn {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.q8__btn:nth-child(5n) {
+  margin-right: 0;
+}
+
+.small {
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 26px;
+}
+
+.common_small {
+  color: #ffffff;
+  background-color: #00bcd4;
+}
+
+.error_small { 
+  color: #ffffff;
+  background-color: #ff4081;
+}
+
+.disabled_small {
+  color: #ffffff;
+  background-color: #e5e5e5;
+}
+
+.shadow_small {
+  color: #222;
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+.middle {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+}
+
+ .common_middle {
+  color: #ffffff;
+  background-color: #00bcd4;
+}
+
+.error_middle { 
+  color: #ffffff;
+  background-color: #ff4081;
+}
+
+.disabled_middle {
+  color: #ffffff;
+  background-color: #e5e5e5;
+}
+
+.shadow_middle {
+  color: #222;
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+.large {
+  border-radius: 7px;
+  font-size: 24px;
+  padding: 0 25px;
+  line-height: 38px;
+}
+
+ .common_large {
+  color: #ffffff;
+  background-color: #00bcd4;
+}
+
+.error_large { 
+  color: #ffffff;
+  background-color: #ff4081;
+}
+
+.disabled_large {
+  color: #ffffff;
+  background-color: #e5e5e5;
+}
+
+.shadow_large {
+  color: #222;
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
 /* 回答はここに書いてね */
