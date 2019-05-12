@@ -1,14 +1,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.q3__content {
   width: 100%;
   table-layout: fixed;
+  border-collapse: collapse;
 }
 
-table td {
+.q3__content td {
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px 0;
@@ -16,20 +15,20 @@ table td {
   line-height: 22px;
 }
 
-table th, table td:first-child {
+.q3__content th {
   border: solid #dedede 1px;
   background-color: #2244aa;
   color: #ffffff;
-  padding: 10px 0;
+  padding: 10px;
   font-size: 18px;
   line-height: 26px ;
 }
 
-table td:nth-child(2n) {
+.q3__content tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-table tr:last-child {
+.q3__content tr:last-child {
   border-top: dashed #000 2px;
 }
 
