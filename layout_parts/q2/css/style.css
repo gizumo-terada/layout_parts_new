@@ -16,14 +16,14 @@
 
 .q2__content__leftbox img {
   float: left;
-  margin-right: 20px;
-  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 .q2__content__rightbox img{
   float: right;
-  margin-left: 20px;
-  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 .q2__content__text{
