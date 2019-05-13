@@ -10,7 +10,7 @@
   clear: both;
 }
 
-.float_box {
+.float__box {
   width: 225px;
   margin-right: 50px;
   font-size: 16px;
@@ -18,25 +18,29 @@
   box-sizing:border-box;
 }
 
-.float_box:nth-child(2n) {
+.float__box:nth-child(2n) {
   margin-right: 0;
 }
 
 /* Q7-2 tableでの横並び */
 
-.table_inner {
+.q7__inner {
   display: table;
 }
 
-.table_box {
+.q7__table__box:first-child {
+  padding-left: 0;
+}
+
+.q7__table__box {
   display: table-cell;
   width: 225px;
-  padding-right: 50px;
+  padding-left: 50px;
   font-size: 16px;
   vertical-align: middle;
 }
 
-.table_box:nth-child(2n) {
+.table__box:nth-child(2n) {
   padding-right: 0;
 }
 
@@ -66,7 +70,7 @@
   justify-content: space-around;
 }
 
-.flex_box {
+.flex__box {
   width: 225px;
   font-size: 16px;
   box-sizing:border-box;
