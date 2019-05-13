@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.clearfix::after {
+.clearfix:after {
   display: block;
   content: "";
   clear: both;
@@ -17,13 +17,13 @@
 .q1__content {
   width: 230px;
   padding: 20px;
-  margin-right: 20px;
+  margin-left: 20px;
   float: left;
   background-color: #3274ae;
 }
 
 .q1__content:first-child {
-  margin-right: 0 auto;
+  margin-left: 0;
 }
 
 .q1__content__box {
