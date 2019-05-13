@@ -7,31 +7,28 @@
   clear: both;
 }
 
-.q1__content {
+.q1 {
   width: 900px;
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
 }
 
-.q1__content__box{
+.q1__content {
   width: 230px;
   padding: 20px;
-  margin-left: 20px;
+  margin-right: 20px;
   float: left;
   background-color: #3274ae;
 }
 
-
-.q1__content .q1__content__box:first-child {
-  margin-left: 0 auto;
+.q1__content:first-child {
+  margin-right: 0 auto;
 }
 
-.q1__content__text {
+.q1__content__box {
   padding: 20px;
   border: 10px solid #022336;
-  font-size: 16px;
-  line-height: 16px;
   background-color: #eaf4ff;
 }
 
