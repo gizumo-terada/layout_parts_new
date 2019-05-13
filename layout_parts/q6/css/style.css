@@ -45,7 +45,7 @@
   padding: 10px;
 }
 
-.q6--around {
+.is-flex {
   display: flex;
   justify-content: center;
   align-items: center;
